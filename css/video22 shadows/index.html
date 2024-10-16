@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            background-color: aqua;
+            width: 330px;
+            height: 500px;
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 10px 10px pink; */
+            /* box-shadow: 10px 10px 50px blue;this extra 50px is used to make a blur effect */
+            /* box-shadow: 10px 10px 50px 10px blue;this extra 10px is used to make the spread of the total shadow */
+            
+            box-shadow: 10px 10px blue,15px 15px green;/*multiple shadows */      
+        }
+        #head1{
+            text-shadow: 1px 5px 3px white;
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <div class="box">
+            <img src="download.jpeg" alt="">
+            <h2 id="head1">welcome to my web</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas neque! Maiores non quibusdam, iste recusandae voluptates aspernatur laborum voluptatem? Asperiores sunt enim vero iusto, pariatur consectetur exercitationem ipsa reiciendis, ullam labore corporis quis!</p>
+        </div>
+    </div>
+</body>
+</html>

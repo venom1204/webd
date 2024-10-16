@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{
+            width: 400px;
+            height: 400px;
+            background: aqua;
+            border: 2px solid;
+        }
+        @media (min-width:500px) and (max-width:800px){
+            .box{
+              background-color:blue;
+            }
+        } */
+        /* media query is used to change the apperance of the visible site when the size of the window is changed */
+      .container{
+        background-color: beige;
+        border: 2px solid;
+        margin: 2px;
+        padding: 2px;
+
+      }
+      .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid brown;
+        margin: 2px;
+        padding: 2px;
+
+
+      }
+      #box1{
+        background-color: blue;
+      }
+      #box2{
+        background-color: red;
+      }
+      #box3{
+        background-color: orange;
+      }
+      #box4{
+        background-color: pink;
+      }
+      @media(min-width:640px){
+        .container{
+            flex-direction: row;
+        }
+      }
+      @media (max-width:640px){
+        .conatiner{
+            flex-direction: column;
+        }
+      }
+      
+    </style>
+</head>
+<body>
+      <!-- <div class="box">
+        hello jee
+      </div> -->
+      <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+      </div>
+</body>
+</html>

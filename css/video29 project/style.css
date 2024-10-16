@@ -1,0 +1,24 @@
+*{ 
+    margin: 5px;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    justify-content: space-between; /* Adds space between items */
+}
+
+.img {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Semi-transparent border */
+    grid-template-columns: repeat(auto-fit,minmax(200px,500px));
+    border-radius: 20px;
+}
+
+.heading{
+    justify-content: center;
+    align-items: center;
+}
